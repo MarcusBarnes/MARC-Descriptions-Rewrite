@@ -1,0 +1,55 @@
+MARC Descriptions Rewrite README
+
+Last Updated: September 28, 2011.
+
+
+ABOUT:
+
+This rewrite of the MARC::Descriptions (MARC metadata looker-upper) 
+Perl module created by David Christensen consists of two parts:
+
+1. The Perl hash that forms the basis of MARC::Descriptions
+reformatted as JSON.
+
+2. A jQuery plugin to utilize the JSON data file for client-side MARC metadata lookup.
+
+As most programming languages have the ability to deal with JSON data in a straight-forward manner, it was felt that making the metadata available in
+this way would be beneficial to those making software that utilize the MARC bibliographic formats.
+
+The second portion of this project is in recognition that jQuery is one of the most widely used client-side JavaScript libraries and having a matedata lookup plugin could prove useful.
+
+This project was initiated by 
+
+Marcus Emmanuel Barnes http://www.marcusebarnes.com
+
+... while working for the library systems group at Simon Fraser University
+(http://www.lib.sfu.ca/).  Their support and encouragement is kindly acknowledged. 
+
+You can find out more about the MARC bibliographic standards at:
+
+http://www.loc.gov/marc/
+
+You can find out more about JSON (JavaScript Object Notation) at:
+
+http://json.org/
+
+DOCUMENTATION
+
+[Further documentation will be added as progress on this project progresses.]
+
+USE DISCLAIMER
+
+This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+COPYRIGHT AND LICENCE
+
+This rewrite must be made available under the same licence 
+of MARC::Descriptions:
+
+Copyright (C) 2011 Marcus Emmanuel Barnes [MARC Descriptions Rewrite]
+Copyright (C) 2003 David Christensen [MARC::Descriptions]
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
+
